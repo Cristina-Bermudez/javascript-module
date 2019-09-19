@@ -1,7 +1,9 @@
-var number = 10
+var pet = 'parrot'
 
-if (number % 2 === 0){
-  console.log ('El número es par');
-} else {
-  console.log ('El número es impar');
+if (pet === 'dog'){
+  console.log ('It is a dog');
+} else if (pet === 'parrot'){
+  console.log ('It is a parrot');
+}  else {
+  console.log ('It is another pet');
 }
