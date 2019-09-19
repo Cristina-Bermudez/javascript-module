@@ -1,5 +1,7 @@
-const PI = 3.1416
-var radio = 5 // Equivale a radio al cuadrado
-const AREA = PI * radio //Calcular el área
+var number = 10
 
-console.log ('El área del circulo es ' + AREA)
+if (number % 2 === 0){
+  console.log ('El número es par');
+} else {
+  console.log ('El número es impar');
+}
