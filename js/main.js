@@ -1,12 +1,5 @@
-var exchangePenToMXN = 5.81
-var pen = 2500
-var totalMxn = pen * exchangePenToMXN // cambiar soles a pesos mexicanos
+const PI = 3.1416
+var radio = 5 // Equivale a radio al cuadrado
+const AREA = PI * radio //Calcular el área
 
-var exchangeMxnToUSD = 0.052 //cambiar pesos mexicanos a USD
-var totalUSD = totalMxn * exchangeMxnToUSD
-
-var exchangeMxnToEUR = 0.047 //cambiar pesos mexicanos a EUR
-var totalEUR = totalMxn * exchangeMxnToEUR
-
-console.log ('Tengo '+ totalUSD + ' Dolares')
-console.log ('Tengo '+ totalEUR + ' Euros')
+console.log ('El área del circulo es ' + AREA)
