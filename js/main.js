@@ -1,8 +1,9 @@
-//EJERCICIO 1 --> Verificar si la palabra contiene las letras 'ing'
-var word = 'baloon';
+//EJERCICIO 2 --> var 0 al 100 identificar los #pares e imprimirlos en pantalla
+var number = 0;
 
-if (word .includes ( 'ing' )){
-  console.log ('La palabra contiene las letras "ing"')
-} else {
-    console.log ('La palabra no contiene las letras "ing"')
+while (number <= 100 ){
+  if (number %2 === 0 ){
+    console.log (number)
+  }
+  number ++
 }
