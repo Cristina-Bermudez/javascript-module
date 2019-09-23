@@ -16,3 +16,18 @@ for (let absence = 0; absence <= employees.length; absence ++){
 
   console.log (`${currentEmployee[0]}: $${totalSalary}`);
 }
+/* EJERCICIO 2 --> Calculadora para dos números que resuelvan las operaciónes básicas:
+  Suma, resta, multiplicación y división */
+ 
+function addition (numberOne , numberTwo){
+  return `${numberOne} + ${numberTwo} = ${numberOne + numberTwo}`
+  }
+function subtraction (numberOne , numberTwo){
+  return `${numberOne} - ${numberTwo} = ${numberOne - numberTwo}`
+  }
+function division (numberOne , numberTwo){
+  return `${numberOne} - ${numberTwo} = ${numberOne / numberTwo}`
+   }
+function multiplication (numberOne , numberTwo){
+  return `${numberOne} - ${numberTwo} = ${numberOne * numberTwo}`
+   }
